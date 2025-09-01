@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env & secrets
+.env
+*.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+*.log
+docker-data/
+db_data/
+redis_data/
+
+# Build/artifacts
+dist/
+build/
+.eggs/
+*.egg-info/
+
+# Node (kalau ada web ui)
+node_modules/
+
+# Media besar (jangan commit ke git biasa)
+*.mp4
+*.mkv
+*.mov
+*.zip
+*.tar
+*.gz
