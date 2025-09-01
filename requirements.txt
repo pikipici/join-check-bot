@@ -1,0 +1,4 @@
+pyrogram>=2.0.100,<2.1.0
+tgcrypto==1.2.5
+SQLAlchemy==2.0.32
+psycopg[binary]==3.2.1
